@@ -12,27 +12,32 @@ public class Builder extends Unit {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
 	public void onAttack(Object arg0) {
 		// TODO Auto-generated method stub
 
 	}
 
+	@Override
 	public void onAttacked(Object arg0) {
 		// TODO Auto-generated method stub
 
 	}
 
-	void onCreate(Location arg0) {
+	@Override
+	public void onCreate(Location arg0) {
 		// TODO Auto-generated method stub
 
 	}
 
-	void onDestroy() {
+	@Override
+	public void onDestroy() {
 		// TODO Auto-generated method stub
 
 	}
 
-	void onMove(Location arg0) {
+	@Override
+	public void onMove(Location arg0) {
 		// TODO Auto-generated method stub
 
 	}
