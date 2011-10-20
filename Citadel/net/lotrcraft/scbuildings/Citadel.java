@@ -22,10 +22,6 @@ public class Citadel extends Building {
 	String name = "Citadel";
 	public static Logger log = Logger.getLogger("minecraft");
 
-	public String getName() {
-		return name;
-	}
-
 	@Override
 	public void build(Location l) {
 		this.l = l;

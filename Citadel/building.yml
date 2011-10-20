@@ -1,2 +1,3 @@
 building: net.lotrcraft.scbuildings.Citadel
 name: Citadel
+unit: net.lotrcraft.scbuildings.Builder
