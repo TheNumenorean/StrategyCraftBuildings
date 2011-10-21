@@ -1,7 +1,5 @@
 package net.lotrcraft.scbuildings;
 
-import java.util.logging.Logger;
-
 import net.lotrcraft.strategycraft.buildings.Building;
 import net.lotrcraft.strategycraft.buildings.Schematic;
 
@@ -19,8 +17,6 @@ public class Citadel extends Building {
 	Location l;
 	Block block;
 	int x, y, z;
-	String name = "Citadel";
-	public static Logger log = Logger.getLogger("minecraft");
 
 	@Override
 	public void build(Location l) {

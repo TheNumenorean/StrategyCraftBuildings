@@ -1,15 +1,21 @@
 package net.lotrcraft.scbuildings;
 
+import org.bukkit.Bukkit;
+
 import org.bukkit.Location;
+import org.bukkit.craftbukkit.CraftWorld;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.Player;
 
 import net.lotrcraft.strategycraft.buildings.Castle;
 import net.lotrcraft.strategycraft.units.Unit;
 
+import net.minecraft.server.WorldServer;
+
 public class Builder extends Unit {
 
-	public Builder(Castle castle) {
-		super(castle);
-		// TODO Auto-generated constructor stub
+	public Builder(Castle castle, Location l) {
+		super(castle, l);
 	}
 
 	@Override
@@ -25,12 +31,6 @@ public class Builder extends Unit {
 	}
 
 	@Override
-	public void onCreate(Location arg0) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
 	public void onDestroy() {
 		// TODO Auto-generated method stub
 
@@ -40,6 +40,12 @@ public class Builder extends Unit {
 	public void onMove(Location arg0) {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public void create(Location l) {
+		//WorldServer ws = ((CraftWorld) l.getWorld()).getHandle();
+		
 	}
 
 }
