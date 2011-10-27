@@ -1,7 +1,7 @@
 package net.lotrcraft.scbuildings;
 
 import net.lotrcraft.strategycraft.buildings.Building;
-import net.lotrcraft.strategycraft.buildings.Schematic;
+import net.lotrcraft.strategycraft.schematic.Schematic;
 
 import org.bukkit.Chunk;
 import org.bukkit.Location;
