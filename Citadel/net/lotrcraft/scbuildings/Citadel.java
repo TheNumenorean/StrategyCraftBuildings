@@ -10,7 +10,7 @@ import org.bukkit.World;
 import org.bukkit.block.Block;
 
 public class Citadel extends Building {
-	Schematic schematic = new Schematic(null);
+	//Schematic schematic = new Schematic(null);
 	Material material = Material.STONE;
 	Chunk chunk;
 	World world;

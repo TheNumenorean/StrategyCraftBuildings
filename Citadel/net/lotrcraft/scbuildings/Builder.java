@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 import net.lotrcraft.strategycraft.buildings.Castle;
 import net.lotrcraft.strategycraft.units.Unit;
 
+import net.minecraft.server.EntityPlayer;
 import net.minecraft.server.WorldServer;
 
 public class Builder extends Unit {
@@ -44,6 +45,7 @@ public class Builder extends Unit {
 
 	@Override
 	public void create(Location l) {
+		//EntityPlayer v = new EntityPlayer(null, null, null, null);
 		//WorldServer ws = ((CraftWorld) l.getWorld()).getHandle();
 		
 	}
