@@ -18,6 +18,7 @@ public class Citadel extends Building {
 	Block block;
 	int x, y, z;
 
+	/*
 	@Override
 	public void build(Location l) {
 		this.l = l;
@@ -70,4 +71,5 @@ public class Citadel extends Building {
 		world.getBlockAt(x - 2, y, z - 2).setType(Material.AIR);
 		world.getBlockAt(x - 2, y, z - 1).setType(Material.AIR);
 	}
+	*/
 }
